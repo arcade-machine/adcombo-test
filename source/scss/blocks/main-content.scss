@@ -1,0 +1,10 @@
+.main-content {
+  width: 100%;
+  max-width: 1334px;
+  padding: 30px 134px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 70px;
+  box-sizing: border-box;
+}

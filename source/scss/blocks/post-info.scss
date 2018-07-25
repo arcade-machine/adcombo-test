@@ -1,0 +1,35 @@
+.post-info {
+  padding: 15px 40px 15px 50px;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: #8c5d79;
+}
+
+.post-info__item {
+  & h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  & p {
+    min-width: 50px;
+    min-height: 50px;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
