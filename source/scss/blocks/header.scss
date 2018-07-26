@@ -1,11 +1,30 @@
 .main-header {
   width: 100%;
   max-width: 1334px;
-  padding: 60px 134px 100px 134px;
+  padding: 4% 9% 6% 9%;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .main-header__logo {
   margin-bottom: 110px;
+}
+
+@media (min-width: 1334px) {
+  .main-header {
+    padding: 60px 134px 100px 134px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .main-header__logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .main-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

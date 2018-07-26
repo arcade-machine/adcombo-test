@@ -14,7 +14,10 @@
   font-display: swap;
 }
 
+$mobile: 768px;
+
 body {
+
   padding: 0;
   margin: 0;
   font-family: "Myriad Pro", sans-serif, Arial;
@@ -22,5 +25,6 @@ body {
 }
 
 .container-header {
+  min-width: 320px;
   background-color: #8c5d79;
 }

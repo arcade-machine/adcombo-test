@@ -1,10 +1,26 @@
 .main-content {
   width: 100%;
   max-width: 1334px;
-  padding: 30px 134px;
+  padding: 2% 10%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 70px;
   box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column-gap: 0;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr;
+  }
+}
+
+@media (min-width: 1334px) {
+  .main-content {
+    padding: 30px 134px;
+  }
 }

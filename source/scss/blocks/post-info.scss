@@ -33,3 +33,14 @@
     box-sizing: border-box;
   }
 }
+
+@media (max-width: 1100px) {
+  .post-info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .post-info__item {
+    text-align: center;
+  }
+}
